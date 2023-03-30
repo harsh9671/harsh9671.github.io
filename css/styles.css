@@ -30,12 +30,15 @@ section {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 5rem;
+	column-gap: 10PX;
+justify-content: center;  
+	
 }
 section article {
 	border: 1px solid black;
 	box-shadow: 0 2px 14px grey;
 	padding: 2.5%;
-	width: 25%
+	width: 18%;
 }
 article img {
 	display: block;
@@ -51,6 +54,9 @@ section ul {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 3vh;
   margin-bottom: 10px;
+  width: 20vh;
+
 }
+
